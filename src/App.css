@@ -1,0 +1,26 @@
+body {
+    background: url("https://motaen.com/upload/wallpapers/source/2011/05/27/11/02/25819/mota_ru_1052713.jpg") no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.app_wrapper {
+    margin: 0 auto;
+    display: grid;
+    width: 1200px;
+    grid-template-areas:
+    'h h'
+    'n c';
+
+
+    grid-auto-rows: 60px 1fr;
+    grid-template-column: 2fr 10fr;
+}
+
+.app-wrapper-content {
+
+    grid-area: c;
+    background-color: mediumslateblue;
+    padding: 10px;
+
+}
